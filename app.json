@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "tempo",
     "name": "Tempo",
     "slug": "tempo",
     "version": "1.0.0",
@@ -30,6 +31,9 @@
         "projectId": "b9f7a3fd-bd2a-4714-a8d7-dbfd39c7726b"
       }
     },
-    "owner": "marioman1090"
+    "owner": "marioman1090",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
