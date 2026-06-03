@@ -1,5 +1,4 @@
-import { StyleSheet, Text, useColorScheme, View } from 'react-native'
-import React from 'react'
+import { useColorScheme } from 'react-native'
 import {useEffect} from 'react';
 import { Stack } from 'expo-router'
 import { useFonts, Outfit_400Regular } from '@expo-google-fonts/outfit'
@@ -29,12 +28,10 @@ export default function RootLayout() {
     <Stack screenOptions={{
         headerStyle: { backgroundColor: theme.stackHeader },
         headerTintColor: theme.text,
-        headerTitleStyle: { fontFamily: 'Outfit_400Regular', fontSize: 18, fontWeight: 'bold' },
+        headerTitleStyle: { fontFamily: 'Outfit_400Regular', fontSize: 18},
     }}> 
         <Stack.Screen name="index" options={{ headerShown: false }, {title: "Home" }} />
         <Stack.Screen name="library" options={{ headerShown: true }, {title: "Library" }} />
     </Stack>
   )
 }
-
-const styles = StyleSheet.create({})

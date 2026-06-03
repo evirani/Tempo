@@ -1,7 +1,4 @@
-import { StyleSheet, Text, View, Image, useColorScheme } from 'react-native'
-import React from 'react'
-import { Link } from 'expo-router'
-import { Colors } from "../constants/Colors"
+import { StyleSheet, Image } from 'react-native'
 import ThemedView from '../components/ThemedView'
 import ThemedText from '../components/ThemedText'
 import ThemedButton from '../components/ThemedButton'

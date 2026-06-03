@@ -1,7 +1,4 @@
-import { StyleSheet, Text, View, useColorScheme } from 'react-native'
-import React from 'react'
-import { Link } from 'expo-router'
-import { Colors } from "../constants/Colors"
+import { StyleSheet } from 'react-native'
 import ThemedView from '../components/ThemedView'
 import ThemedText from '../components/ThemedText'
 import ThemedButton from '../components/ThemedButton'
@@ -28,14 +25,12 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Outfit_400Regular',
         fontSize: 24,
-        fontWeight: 'bold',
         marginBottom: 10,
         top: 20,
     },
     subtitle: {
         fontFamily: 'Outfit_400Regular',
         fontSize: 18,
-        fontWeight: 'bold',
         marginBottom: 20,
         top: 15,
     },
