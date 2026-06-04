@@ -14,3 +14,7 @@ Tempo is an in-progress offline music player app for iOS and Android, built usin
 <img src="assets/README-images/Screenshot_1780529233.png" alt="Alt Text" width="270" height="606">
 <img src="assets/README-images/Screenshot_1780529182.png" alt="Alt Text" width="270" height="606">
 </p>
+
+---
+
+ <a href="https://www.flaticon.com/free-icons/tempo" title="tempo icons">Tempo icons created by Freepik - Flaticon</a>
